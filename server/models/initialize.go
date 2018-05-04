@@ -5,7 +5,8 @@ import (
 	"fmt"
 
 	"github.com/asdine/storm"
-	"github.com/boltdb/bolt"
+	//"github.com/boltdb/bolt"
+	"github.com/coreos/bbolt"
 
 	"github.com/Depado/goploader/server/database"
 	"github.com/Depado/goploader/server/logger"

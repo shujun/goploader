@@ -4,7 +4,8 @@ import (
 	"time"
 
 	"github.com/asdine/storm"
-	"github.com/boltdb/bolt"
+	//"github.com/boltdb/bolt"
+	bolt "github.com/coreos/bbolt"
 
 	"github.com/Depado/goploader/server/conf"
 )
